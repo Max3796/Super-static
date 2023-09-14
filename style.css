@@ -23,7 +23,8 @@ body{
 section{
     display: flex;
     justify-content: center;
-    margin: 5vh auto;   
+    margin: 5vh auto;
+    flex-wrap: wrap;  
 }
 #team2{
     background-color: #48901D;
@@ -50,6 +51,7 @@ h1{
 }
 .balls{
     display: flex;
+    flex-wrap: wrap; 
 }
 .button{
     width: 90px;
